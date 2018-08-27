@@ -2,7 +2,6 @@ FROM node:carbon-slim
 
 LABEL author=sjj118
 
-COPY aptget-sources.list /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y git
 
